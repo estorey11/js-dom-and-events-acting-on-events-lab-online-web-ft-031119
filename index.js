@@ -27,7 +27,7 @@ function addNewLiOnClick(){
 }
 
 function clearEmployeeListOnLinkClick(){
-  var myNode = document.getElementByClassName("employee-list");
+  var myNode = document.getElementsByClassName("employee-list");
   while (myNode.firstChild) {
       myNode.removeChild(myNode.firstChild);
   }
