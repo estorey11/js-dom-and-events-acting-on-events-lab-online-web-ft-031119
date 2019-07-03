@@ -19,7 +19,9 @@ function addNewElementAsLi(){
 }
 
 
-function 
+function addNewLiOnClick(){
+  
+}
 
 
 
