@@ -27,10 +27,12 @@ function addNewLiOnClick(){
 }
 
 function clearEmployeeListOnLinkClick(){
-  var myNode = document.getElementsByClassName("employee-list");
-  while (myNode.firstChild) {
-      myNode.removeChild(myNode.firstChild);
-  }
+  document.querySelector('a').addEventListener('click', function(event){
+    var myNode = document.getElementsByClassName("employee-list");
+    while (myNode.firstChild) {
+        myNode.removeChild(myNode.firstChild);
+    }
+  })
 }
 
 
