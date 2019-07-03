@@ -17,3 +17,12 @@ function addNewElementAsLi(){
   let list=document.querySelector('.employee-list')
   list.appendChild(element);
 }
+
+
+function 
+
+
+
+
+
+
